@@ -1,16 +1,24 @@
-### Hi  👋
+# مقارئ الأوقاف الإلكترونية (HTML/CSS/JS)
 
-<!--
-**Rowida24/Rowida24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+مشروع ويب تجريبي خفيف لإدارة حلقات التحفيظ: عرض الحلقات، التسجيل، متابعة الحضور، وطباعة الشهادات. كل شيء يعمل محليًا عبر LocalStorage دون خادم خلفي.
 
-Here are some ideas to get you started:
+## التشغيل
+- افتح الملف `index.html` مباشرة في المتصفح، أو شغّل خادمًا محليًا بسيطًا:
+  - Python: `python3 -m http.server 8080` ثم انتقل إلى `http://localhost:8080`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## المزايا
+- صفحة واحدة RTL بالعربية مع تصميم بسيط ومتجاوب.
+- قسم الحلقات مع بحث وتصفية حسب اليوم.
+- نموذج تسجيل مع تحقق من البيانات وتخزين محلي.
+- لوحة تحكم تجريبية:
+  - إحصائيات عامة.
+  - استعراض المسجلين حسب الحلقة وحذف سجل.
+  - تسجيل حضور حسب التاريخ.
+  - توليد شهادة حضور قابلة للطباعة.
+
+## بيانات الدخول الإدارية
+- الرمز الافتراضي: `admin123` (لأغراض التجربة فقط).
+
+## ملاحظات
+- البيانات تحفظ في LocalStorage على نفس المتصفح فقط.
+- عدّل الحلقات الافتراضية من المصفوفة داخل `assets/app.js` حسب الحاجة.
